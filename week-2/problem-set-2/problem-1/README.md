@@ -24,6 +24,9 @@ Remaining balance: 4784.0
 A summary of the required math is found below:
 
 **Monthly interest rate**= (Annual interest rate) / 12.0
+
 **Minimum monthly payment** = (Minimum monthly payment rate) x (Previous balance)
-**Monthly unpaid balanc**e = (Previous balance) - (Minimum monthly payment)
+
+**Monthly unpaid balance** = (Previous balance) - (Minimum monthly payment)
+
 **Updated balance each month** = (Monthly unpaid balance) + (Monthly interest rate x Monthly unpaid balance)
