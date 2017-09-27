@@ -4,13 +4,13 @@ Now you will implement the function hangman, which takes one parameter - the sec
 
 ## Hints:
 
-  * You should start by noticing where we're using the provided functions (at the top of ps3_hangman.py) to load the words and pick a random one. Note that the functions loadWords and chooseWord should only be used on your local machine, not in the tutor. When you enter in your solution in the tutor, you only need to give your hangman function.
+* You should start by noticing where we're using the provided functions (at the top of ps3_hangman.py) to load the words and pick a random one. Note that the functions loadWords and chooseWord should only be used on your local machine, not in the tutor. When you enter in your solution in the tutor, you only need to give your hangman function.
 
-  * Consider writing additional helper functions if you need them!
+* Consider writing additional helper functions if you need them!
 
-  * There are four important pieces of information you may wish to store:
+* There are four important pieces of information you may wish to store:
 
-    1. secretWord: The word to guess.
-    2. lettersGuessed: The letters that have been guessed so far.
-    3. mistakesMade: The number of incorrect guesses made so far.
-    4. availableLetters: The letters that may still be guessed. Every time a player guesses a letter, the guessed letter must be removed from availableLetters (and if they guess a letter that is not in availableLetters, you should print a message telling them they've already guessed that - so try again!).
+  1. secretWord: The word to guess.
+  2. lettersGuessed: The letters that have been guessed so far.
+  3. mistakesMade: The number of incorrect guesses made so far.
+  4. availableLetters: The letters that may still be guessed. Every time a player guesses a letter, the guessed letter must be removed from availableLetters (and if they guess a letter that is not in availableLetters, you should print a message telling them they've already guessed that - so try again!).
