@@ -33,7 +33,7 @@ class intSet(object):
     def intersect(self, other):
         # create a new intSet
         commonValueSet = intSet()
-        # iterates through one set, if the element is in both then append to commonValueSet
+        # iterates through one set, if the element is in both then append to commonValueSet 
         for num in self.vals:
             if num in other.vals:
                 commonValueSet.insert(num)
